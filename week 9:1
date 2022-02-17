@@ -1,0 +1,24 @@
+//try and catch exception.
+import java.lang.*;
+import java.util.*;
+
+public class week9
+{
+	public static void main(String args[])
+	{
+		try{
+			Scanner sc=new Scanner(System.in);
+			System.out.println("enter the size of array:");
+			int n=sc.nextInt();
+			int arr[]=new int[n];
+			if(n>0)
+			{
+				System.out.println(n);
+			}
+		}
+		catch(NegativeArraySizeException e)
+		{
+			System.out.println(e);
+		}
+	}
+}
