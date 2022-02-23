@@ -82,7 +82,7 @@ public class stringclass
 
 import java.util.*;
 import java.lang.*;
-public class stringbuilder
+public class stringbuffer
 {
 	public static void main(String args[])
 	{
